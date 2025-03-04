@@ -80,6 +80,10 @@ form {
     border-color: rgb(237,175,5);
 }
 
+input,textarea {
+    display: block;
+}
+
 legend {
     font-family: miletra;
     font-size: 14px;
@@ -90,7 +94,14 @@ textarea{
     width: 90%;
 }
 
+label {
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
 .boton {
+    display: inline;
     margin-left: 60px;
     background-color:crimson;
     border-style: 1px solid;
