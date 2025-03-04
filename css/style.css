@@ -1,0 +1,107 @@
+@font-face {
+    font-family: miletra;
+    src: url(../font/street.otf)
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: miletra;
+    color: crimson;
+    font-size: 46px;
+}
+
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    margin:auto;
+    width: 600px;
+    height: 800px;
+    border-color: rgb(237,175,5);
+    border-style: outset;
+    border-spacing: 10px; 
+    border-radius: 10px;
+    background-color: black;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    border-style: 2px solid grey;
+    border-radius: 10px;
+    color: darkorange;
+    font-family: miletra;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    margin:auto
+}
+
+#cabecera {
+    background-image: url(../img/fondocabecera.jpg);
+    font-family: miletra;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+}
+
+/*FORMULARIO*/
+
+h2 {
+    font-family: miletra;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    height: 1100px;
+    border-style: 10px outset rgb(237,175,5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin:auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(237,175,5);
+}
+
+legend {
+    font-family: miletra;
+    font-size: 14px;
+    color: rgb(237,175,5);
+}
+
+textarea{
+    width: 90%;
+}
+
+.boton {
+    margin-left: 60px;
+    background-color:crimson;
+    border-style: 1px solid;
+    font-family: miletra;
+    font-family: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding-left: 65px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
